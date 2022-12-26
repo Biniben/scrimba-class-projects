@@ -1,0 +1,84 @@
+/*
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+#hero {
+    margin: 0px;
+    padding: 5px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/63/Night_view_of_Meskel_Square.jpg");
+    background-size: cover;
+}
+
+div h1, div h2, #guide, #avater {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+div h1 {
+    width: 250px;
+    margin: 120px auto 20px;
+    background: #00a0ff;
+    font-size: 24px;
+}
+
+div h2 {
+    width: 450px;
+    margin: 20px auto;
+    background: #00b0ff;
+    font-size: 18px;
+}
+
+.activities {
+    margin: 0px;
+    padding: 50px 20px;
+    background-color: #F1FAEE;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.visit-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.visit {
+    width: 200px;
+    padding: 5px;
+}
+
+#guide {
+    display: flex;
+    align-content: center;
+    background: #abdadc;
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 25px 25px;
+    box-shadow: 0px 6px 0px #1D3557;
+}
+
+.guide-p {
+    font-style: italic;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#avater {
+    width: 100px;
+    margin: 50px 10px;
+}

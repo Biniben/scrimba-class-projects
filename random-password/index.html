@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>GENERATE-RANDOM-PASSWORD</title>
+</head>
+<body>
+    <div id="main-div">
+        <h1 id="h1-header">Generate a <br><span id="ran-pwd-txt">random password</span></h1>
+        <p id="p-txt">Never use an insecure password again</p>
+
+        <div id="gen-pwd-div">
+            <div>
+                <button id="gen-pwd-btn" onclick="generateRandomoPassword()">Generate passwords</button>
+            </div>
+            <div>
+                <input id="pwd-txt-field" type="text">
+            </div>
+        </div>
+
+        <div id="ran-pwd-div">
+            <div>
+                <button id="ran-pwd-one" onclick="selectPwd()"></button>
+            </div>
+            <div>
+                <button id="ran-pwd-two" onclick="selectPwd()"></button>
+            </div>
+        </div>        
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

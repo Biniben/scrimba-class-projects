@@ -1,0 +1,113 @@
+:root {
+    --bright: #fff;
+    --dark: #1F2937;
+    --darker: #000;
+    --green: #10B981;
+
+    --normalsize: 16px;
+    --mediumsize: 24px;
+    --largesize: 42px;
+
+    --normalbold: 400;
+    --mediumbold: 600;
+    --highbold: 800;
+}
+
+* {
+    margin: 0;
+    text-align: left;
+}
+
+#main-div {
+    margin: 0px auto auto 0px;
+    padding: 100px 60px;
+    width: 450px;
+    
+    background: var(--dark);
+}
+
+#h1-header {
+    width:350px;
+
+    color: var(--bright);
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: var(--highbold);
+    font-size: var(--largesize);
+    
+    letter-spacing: -0.025em;
+}
+
+#ran-pwd-txt {
+    color: var(--green);
+}
+
+#p-txt {
+    margin: 20px 0 50px;
+    width: 400px;
+    
+    color: var(--bright);
+    
+    font-style: italic;
+    font-size: var(--mediumsize);
+}
+
+#gen-pwd-div, #ran-pwd-div {
+    display: flex;
+}
+
+#gen-pwd-div {
+    flex-direction: column;
+}
+
+#gen-pwd-btn {
+    padding: 10px 15px;
+    
+    color: var(--bright);
+    background: var(--green);
+
+    text-align: center;
+
+    font-size: var(--noramlsize);
+    font-weight: var(--mediumbold);
+    
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+#pwd-txt-field {
+    margin: 15px 0;
+    width: 425px;
+    height: 40px;
+    
+    color: var(--bright);    
+    background: var(--dark);
+    
+    font-weight: var(--normalbold);
+    font-size: var(--normalsize);
+    
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #2F3E53;
+}
+
+#ran-pwd-one, #ran-pwd-two {
+    width: 200px;
+    height: 40px;
+
+    background: var(--dark);
+    color: var(--bright);
+    
+    text-align: center;
+
+    font-size: var(--normalsize);
+    font-weight: var(--noramalbold);
+
+    border: 2px solid var(--bright);
+    border-radius: 6px;
+}
+
+#ran-pwd-one {
+    margin-right: 30px;
+}
